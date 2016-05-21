@@ -25,7 +25,6 @@ public class PracticeTest {
 	String reportFile;
 	List<WebElement>cards=new ArrayList<>();
 	
-	
 
 	@BeforeTest
 	 public  void reportFileBirth() throws Throwable{	
@@ -160,10 +159,12 @@ public class PracticeTest {
 		report.endTest(test);
 	
 		report.flush();
+		d.close();
 	}
 	@AfterTest
 	public void reportGeneration(){
-		d.get(reportFile);
+		WebDriver d2=new FirefoxDriver();
+		d2.get(reportFile);
 	}
 	
 	
