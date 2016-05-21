@@ -66,7 +66,7 @@ public class PracticeTest {
 			String cardImageTitle=d.findElement(By.xpath("(//div[@id='amex-cards-list']/div/div/div[2]/div/div[1]/a)["+i+"]")).getAttribute("title");
 		
 			System.out.println(cardImageTitle);
-			
+			test=report.startTest("Verification Of Image And Image Title");
 			if(cardImageTitle.contains(cardTitle.subSequence(1, 4))){
 			
 				test.log(LogStatus.PASS, "Verified Title : Card Image has been verified with Card Title, They are in its place--- Card Title:- > "+cardTitle+"");
@@ -83,7 +83,7 @@ public class PracticeTest {
 			
 			}
 		
-		
+		test=report.startTest("Verification of Appl Button on link");
 			WebElement Apply=d.findElement(By.xpath("(//div[@id='amex-cards-list']/div/div/div[2]/div/div[1]/div/a[2])["+i+"]"));
 		
 			String apl=Apply.getAttribute("title");
