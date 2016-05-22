@@ -40,6 +40,10 @@ public class PracticeTest {
 	
 	@Test
 	public void multipleVerification() throws Throwable{
+		System.out.println("//=======================================//");
+		System.out.println("//======Please Wait for Test To FInish ==========//");
+		System.out.println("//==For the Customized HTML Report==//");
+		System.out.println("//=======================================//");
 		
 		d.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
@@ -148,6 +152,10 @@ public class PracticeTest {
 				test.log(LogStatus.FAIL, "Could not Verify");
 		
 			}
+			System.out.println("//=======================================//");
+			System.out.println("//======Please Wait for Test To FInish ==========//");
+			System.out.println("//==For the Customized HTML Report==//");
+			System.out.println("//=======================================//");
 		
 			d.navigate().back();
 		

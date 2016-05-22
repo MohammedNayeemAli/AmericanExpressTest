@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="216582" started-at="2016-05-21T04:53:40Z" finished-at="2016-05-21T04:57:16Z">
+  <suite name="Default suite" duration-ms="555953" started-at="2016-05-22T02:51:38Z" finished-at="2016-05-22T03:00:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="216582" started-at="2016-05-21T04:53:40Z" finished-at="2016-05-21T04:57:16Z">
+    <test name="Default test" duration-ms="555953" started-at="2016-05-22T02:51:38Z" finished-at="2016-05-22T03:00:54Z">
       <class name="CardsVerification.PracticeTest">
-        <test-method status="PASS" signature="reportFileBirth()[pri:0, instance:CardsVerification.PracticeTest@a2431d0]" name="reportFileBirth" is-config="true" duration-ms="13" started-at="2016-05-21T00:53:40Z" finished-at="2016-05-21T00:53:40Z">
+        <test-method status="PASS" signature="reportFileBirth()[pri:0, instance:CardsVerification.PracticeTest@a2431d0]" name="reportFileBirth" is-config="true" duration-ms="47" started-at="2016-05-21T22:51:38Z" finished-at="2016-05-21T22:51:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportFileBirth -->
-        <test-method status="PASS" signature="multipleVerification()[pri:0, instance:CardsVerification.PracticeTest@a2431d0]" name="multipleVerification" duration-ms="211541" started-at="2016-05-21T00:53:40Z" finished-at="2016-05-21T00:57:11Z">
+        <test-method status="PASS" signature="multipleVerification()[pri:0, instance:CardsVerification.PracticeTest@a2431d0]" name="multipleVerification" duration-ms="547517" started-at="2016-05-21T22:51:38Z" finished-at="2016-05-21T23:00:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleVerification -->
-        <test-method status="PASS" signature="reportGeneration()[pri:0, instance:CardsVerification.PracticeTest@a2431d0]" name="reportGeneration" is-config="true" duration-ms="4966" started-at="2016-05-21T00:57:11Z" finished-at="2016-05-21T00:57:16Z">
+        <test-method status="PASS" signature="reportGeneration()[pri:0, instance:CardsVerification.PracticeTest@a2431d0]" name="reportGeneration" is-config="true" duration-ms="8341" started-at="2016-05-21T23:00:46Z" finished-at="2016-05-21T23:00:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportGeneration -->
